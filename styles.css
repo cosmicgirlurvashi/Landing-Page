@@ -24,21 +24,6 @@ body {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }   
     
-.hero-section h1 {
-    font-size: 3rem; /* Large heading */
-    margin-bottom: 20px;
-}
-
-.hero-section p {
-    font-size: 1.5rem; /* Subheading */
-    margin-bottom: 30px;
-}
-
-.hero-section .btn {
-    font-size: 1.2rem; /* Button text size */
-    padding: 10px 20px; /* Button padding */
-}
-
 .products-section .card {
     margin-bottom: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);

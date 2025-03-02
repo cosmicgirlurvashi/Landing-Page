@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luxe Perfume</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css">
+    <!-- Custom CSS -->
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Luxe Perfume</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#products">Products</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="container">
+            <h1>Experience Luxury in Every Scent</h1>
+            <p>Discover our exclusive collection of perfumes crafted for the extraordinary.</p>
+            <a href="#products" class="btn btn-primary btn-lg mt-3">Explore Now</a>
+            <!-- WhatsApp Button -->
+            <a href="https://wa.me/1234567890" class="btn btn-success btn-lg mt-3" target="_blank">
+                <i class="fab fa-whatsapp"></i> Chat on WhatsApp
+            </a>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="products-section py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Our Signature Collection</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="static/per.jpg" class="card-img-top img-fluid" alt="Perfume 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Midnight Bloom</h5>
+                            <p class="card-text">A captivating blend of jasmine and sandalwood.</p>
+                            <button class="btn btn-outline-primary">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="static/perf.jpg" class="card-img-top img-fluid" alt="Perfume 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Golden Amber</h5>
+                            <p class="card-text">Warm and sensual with notes of vanilla and amber.</p>
+                            <button class="btn btn-outline-primary">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="static/perfume.jpg" class="card-img-top img-fluid" alt="Perfume 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Ocean Breeze</h5>
+                            <p class="card-text">Fresh and invigorating with hints of sea salt and citrus.</p>
+                            <button class="btn btn-outline-primary">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5">About Luxe Perfume</h2>
+            <p class="text-center">Luxe Perfume is a brand dedicated to creating luxurious fragrances that evoke emotion and elegance. Our perfumes are crafted with the finest ingredients, ensuring a unique and unforgettable experience.</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Contact Us</h2>
+            <form>
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea class="form-control" id="message" rows="3" placeholder="Enter your message"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer bg-dark text-white text-center py-3">
+        <p>&copy; 2025 Luxe Perfume. All rights reserved.</p>
+    </footer>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Font Awesome for WhatsApp icon -->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>
